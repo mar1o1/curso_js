@@ -25,4 +25,10 @@ let person5 = {
 }
 
 let list =[person1, person2, person3, person4, person5]
-console.log( list)
+
+for( let person of list){
+  console.log( person)
+}
+
+//console.log( list) //exibe o array de objetos
+//console.log( list[1]) //exibe o objeto na posição 1
