@@ -26,9 +26,11 @@ let person5 = {
 
 let list =[person1, person2, person3, person4, person5]
 
-for( let person of list){
-  console.log( person)
+for( let person of list){ //percorre o array de objetos
+ // console.log( person)//exibe o objeto
+ console.log(person.name) //exibe o nome do objeto
 }
 
 //console.log( list) //exibe o array de objetos
 //console.log( list[1]) //exibe o objeto na posição 1
+
