@@ -1,0 +1,28 @@
+let person1 = {
+    name: 'John' ,
+    age: 30,
+
+}
+let person2 = {
+    name: 'Mary' ,
+    age: 20,
+
+}
+let person3 = {
+    name: 'Peter' ,
+    age: 40,
+
+}
+let person4 = {
+    name: 'Jane' ,
+    age: 50,
+
+}
+let person5 = {
+    name: 'Mark' ,
+    age: 60,
+
+}
+
+let list =[person1, person2, person3, person4, person5]
+console.log( list)
